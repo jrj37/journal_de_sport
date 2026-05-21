@@ -12,9 +12,9 @@
 		181F0323BD7FBB76A1ECAC2E /* jr_sportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6ADD253B1D0B01D60EF3 /* jr_sportApp.swift */; };
 		29354629C397A98283E92DB7 /* WorkoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB06572439747F6D9C92B34 /* WorkoutStore.swift */; };
 		44CCD36377CE973DCBCAAFDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015D082723FAE6DD5F74E36 /* ContentView.swift */; };
+		74704DAAA4EAF84088EDEF41 /* Muscu2026 - Feuille 1-3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C346D32C6265CA38BDC6986 /* Muscu2026 - Feuille 1-3.csv */; };
 		C384BF321BD47375D0417B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB70E0DD7EAB34AEA6FF913 /* Assets.xcassets */; };
 		C65BB3783A08AE318B673E8D /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47BBF5336E190A1C1D3919 /* AddExerciseView.swift */; };
-		C83FAFDB3CBC792C84B507DC /* Muscu2026 - Feuille 1-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = DC5ED11643B46110ACD30007 /* Muscu2026 - Feuille 1-2.csv */; };
 		CB827B6156A5ACFFB109406C /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF66C402FF0C147F31D48C31 /* ExerciseDetailView.swift */; };
 		E213DC726DD9DBDEACA42ADC /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B707C6B1F3D3921CE4D0B0 /* AddSessionView.swift */; };
 		F749AF1D54D454255DF4D1F2 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C306A555BC2F73E4E49383 /* ExerciseListView.swift */; };
@@ -23,6 +23,7 @@
 /* Begin PBXFileReference section */
 		25A484BC89E40B79280013F9 /* jr_sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jr_sport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB70E0DD7EAB34AEA6FF913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C346D32C6265CA38BDC6986 /* Muscu2026 - Feuille 1-3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Muscu2026 - Feuille 1-3.csv"; sourceTree = "<group>"; };
 		6FB06572439747F6D9C92B34 /* WorkoutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStore.swift; sourceTree = "<group>"; };
 		85C306A555BC2F73E4E49383 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
 		873ABE5871BE5FAFE724CDE4 /* WorkoutModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModels.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		C015D082723FAE6DD5F74E36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6B707C6B1F3D3921CE4D0B0 /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
 		CAED1481D4AFF7580AB5D8C9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		DC5ED11643B46110ACD30007 /* Muscu2026 - Feuille 1-2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Muscu2026 - Feuille 1-2.csv"; sourceTree = "<group>"; };
 		FF66C402FF0C147F31D48C31 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 			children = (
 				3BB70E0DD7EAB34AEA6FF913 /* Assets.xcassets */,
 				AE6F6ADD253B1D0B01D60EF3 /* jr_sportApp.swift */,
-				DC5ED11643B46110ACD30007 /* Muscu2026 - Feuille 1-2.csv */,
+				6C346D32C6265CA38BDC6986 /* Muscu2026 - Feuille 1-3.csv */,
 				CAED1481D4AFF7580AB5D8C9 /* Theme.swift */,
 				FB596EECD8DFBA27F17202A1 /* Models */,
 				A975BDC8E2795E861CE0818A /* Views */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C384BF321BD47375D0417B81 /* Assets.xcassets in Resources */,
-				C83FAFDB3CBC792C84B507DC /* Muscu2026 - Feuille 1-2.csv in Resources */,
+				74704DAAA4EAF84088EDEF41 /* Muscu2026 - Feuille 1-3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
