@@ -6,6 +6,14 @@
 
 Application iOS native (SwiftUI) pour suivre ses séances de musculation : exercices, séries, charges, et progression au fil du temps.
 
+## Aperçu
+
+<p align="center">
+  <img src="screenshots/home.png" alt="Journal de musculation — vue d'accueil" width="320" />
+  &nbsp;&nbsp;
+  <img src="screenshots/exercise-detail.png" alt="Détail d'un exercice avec graphique de progression" width="320" />
+</p>
+
 ## Stack
 
 - **Swift 5.9** / **SwiftUI**
