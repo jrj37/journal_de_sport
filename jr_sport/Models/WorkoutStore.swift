@@ -6,9 +6,9 @@ final class WorkoutStore: ObservableObject {
 
     private let saveKey = "jr_sport_exercises"
     private let seedVersionKey = "jr_sport_seed_version"
-    private let currentSeedVersion = 5
+    private let currentSeedVersion = 6
 
-    private static let seedFileName = "Muscu2026 - Feuille 1-2"
+    private static let seedFileName = "Muscu2026 - Feuille 1-3"
     private static let seedFileExtension = "csv"
     private static let supportedSeedEncodings: [String.Encoding] = [.utf8, .unicode, .isoLatin1]
     private static let exerciseDefinitions: [String: SeedExerciseDefinition] = [
