@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="jr_sport/Assets.xcassets/AppIcon.appiconset/AppIcon.png" alt="jr_sport logo" width="160" />
+</p>
+
 # Journal de Sport (jr_sport)
 
 Application iOS native (SwiftUI) pour suivre ses séances de musculation : exercices, séries, charges, et progression au fil du temps.
