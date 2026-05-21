@@ -1,0 +1,35 @@
+name: jr_sport
+options:
+  bundleIdPrefix: com.jrsport
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15.0"
+settings:
+  SWIFT_VERSION: "5.9"
+targets:
+  jr_sport:
+    type: application
+    platform: iOS
+    sources:
+      - jr_sport
+    supportedDestinations: [iOS, iOSSimulator]
+    settings:
+      SDKROOT: iphoneos
+      SUPPORTED_PLATFORMS: "iphonesimulator iphoneos"
+      INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+      INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+      INFOPLIST_KEY_CFBundleDisplayName: jr_sport
+      PRODUCT_BUNDLE_IDENTIFIER: com.jrsport.app
+      GENERATE_INFOPLIST_FILE: YES
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+schemes:
+  jr_sport:
+    build:
+      targets:
+        jr_sport: all
+    run:
+      config: Debug
+    archive:
+      config: Release

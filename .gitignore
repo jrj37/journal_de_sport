@@ -1,0 +1,74 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode - User-specific
+**/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode - Build
+build/
+DerivedData/
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.swp
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Xcode - Other
+*.moved-aside
+*.hmap
+*.ipa
+*.xcarchive
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/xcuserdata/
+
+# CocoaPods
+Pods/
+*.xcworkspace/xcuserdata/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Logs
+*.log
+/tmp/
+
+# Claude / outils locaux
+.claude/
+CLAUDE.md
+
+# Fichiers générés / temporaires
+generated-image*.png
+*.tmp
+
+# Données locales (optionnel — décommente si les CSV sont privés)
+# data/
