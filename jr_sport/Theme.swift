@@ -78,7 +78,7 @@ enum Fmt {
     /// Tag court pour les filtres de catégorie
     static func category(_ c: ExerciseCategory) -> String {
         switch c {
-        case .chest: return "PECTOS"
+        case .chest: return "PECS"
         case .back: return "DOS"
         case .shoulders: return "ÉPAULES"
         case .arms: return "BRAS"
